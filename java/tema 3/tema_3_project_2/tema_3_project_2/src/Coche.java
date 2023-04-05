@@ -1,4 +1,5 @@
 public class Coche {
+ 
     private int numPuertas;
 
     public Coche(int numPuertas)
@@ -19,5 +20,5 @@ public class Coche {
         miCoche.masPuerta();
         System.out.println("Mi coche tiene " + miCoche.getNumPuertas() + " puertas.");
     }
-
+    
 }

@@ -2,9 +2,9 @@ public class App {
 
     public static void main(String[] args)
     {
-        int a = 4;
-        int b = 9;
-        int c = 12;
+        int a = 15;
+        int b = 25;
+        int c = 48;
         int resultado = sumThreeNumbers(a, b, c);
         System.out.println("El resultado de la suma es: " + resultado);
     }
