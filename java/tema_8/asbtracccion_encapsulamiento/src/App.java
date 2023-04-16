@@ -23,6 +23,26 @@ public class App {
     private int velocidadMaxima;
     private boolean rapido;
 
+    public void setTipo(String tipo) 
+    {
+        this.tipo = tipo;
+    }
+
+    public String getTipo() 
+    {
+        return this.tipo;
+    }
+
+    public void setVelocidadMaxima(int velocidadMaxima) 
+    {
+        this.velocidadMaxima = velocidadMaxima;
+    }
+
+    public int getVelocidadMaxima() 
+    {
+        return this.velocidadMaxima;
+    }
+
     public void setRapido(boolean rapido) 
     {
         this.rapido = rapido;
@@ -32,10 +52,4 @@ public class App {
     {
         return this.rapido;
     }
-       
-        public int getVelocidadMaxima() 
-    {
-        return this.velocidadMaxima;
-    }
-    
 }
